@@ -1,0 +1,65 @@
+ 1754  docker run busybox:latest 
+ 1755  dcoker ps
+ 1756  docker ps
+ 1757  docker stop serene_sinoussi 
+ 1758  docker ps -a
+ 1759  docker run -it busybox:latest bash
+ 1760  docker run -it busybox:latest sh
+ 1761  dokce rps
+ 1762  docker ps
+ 1763  docker ps -a
+ 1764  docker ps -a -q
+ 1765  docker rm $(docker ps -a -q)
+ 1766  docker image
+ 1767  docker images
+ 1768  docker rmi $(docker images -q)
+ 1769  docker run -it busybox:latest bash
+ 1770  docker info
+ 1771  docker run -it busybox:latest bash
+ 1772  which ls
+ 1773  docker run busybox:latest /bin/ls 
+ 1774  docker run busybox:latest /bin/echo "hello" 
+ 1775  docker ps -a
+ 1776  docker help
+ 1777  docker bull ubuntu
+ 1778  docker pull ubuntu
+ 1779  docker run ubuntu echo "hello"
+ 1780  docker ps
+ 1781  docker run --help
+ 1782  docker ps --help
+ 1783  docker ps
+ 1784  docker ps --no-trunc
+ 1785  docker ps --no-trunc -a
+ 1786  docker stop --help
+ 1787  docker pause
+ 1788  docker pause --help
+ 1789  dokce rrm --help
+ 1790  dockee rm --help
+ 1791  docker rm --help
+ 1792  docker attach --help
+ 1793  docker logs --help
+ 1794  docker exec --help
+ 1795  docker exec -it postgres-detached2 bash
+ 1796  docker run --help
+ 1797  docker pull postgres:9.5
+ 1798  docker run postgres:9.5
+ 1799  docker run -d --name "postgres-detached" postgres:9.5
+ 1800  docker ps
+ 1801  docker logs postgres-detached 
+ 1802  docker kill  postgres-detached 
+ 1803  docker logs postgres-detached2 
+ 1804  docker run -d --name "postgres-detached" postgres:9.5
+ 1805  docker run -d --name "postgres-detached2" postgres:9.5
+ 1806  docker ps
+ 1807  docker ps --no-trunc
+ 1808  docker --help
+ 1809  docker ps -a
+ 1810  docker start  postgres-detached
+ 1811  dockerps
+ 1812  docker ps
+ 1813  docker stop $(docker ps -a -q)
+ 1814  docker run --name "wih-port-opening" -p "5431:5432" postgres:9.5
+ 1815  history
+ 1816  history 64
+ 1817  cd ..
+ 1818  history 65 > history_first_session.txt
